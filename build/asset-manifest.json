@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/index/static/css/main.5843d01a.css",
+    "main.js": "/index/static/js/main.1169004d.js",
+    "static/media/New-Logo-Color.bmp": "/index/static/media/New-Logo-Color.54d5cefc56f405ee7975.bmp",
+    "static/media/Visa.png": "/index/static/media/Visa.d4fe171107a8b2435254.png",
+    "static/media/MasterCard.png": "/index/static/media/MasterCard.654f470c44810125552e.png",
+    "static/media/DinersClub.png": "/index/static/media/DinersClub.832278dbdc1538493dd1.png",
+    "static/media/noun-payment-2836331.png": "/index/static/media/noun-payment-2836331.6196dc6060c7a432d02b.png",
+    "index.html": "/index/index.html",
+    "main.5843d01a.css.map": "/index/static/css/main.5843d01a.css.map",
+    "main.1169004d.js.map": "/index/static/js/main.1169004d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5843d01a.css",
+    "static/js/main.1169004d.js"
+  ]
+}

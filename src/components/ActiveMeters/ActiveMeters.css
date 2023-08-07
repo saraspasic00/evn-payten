@@ -1,0 +1,26 @@
+@media (max-width: 1080px) {
+  .details-active {
+    display: grid;
+
+    margin-bottom: 30px;
+  }
+  .title-active {
+    margin-bottom: 80px !important;
+    display: flex !important;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1081px) {
+  .details-active {
+    display: grid;
+
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .title-active {
+    margin-bottom: 100px !important;
+    display: flex !important;
+    justify-content: center;
+  }
+}

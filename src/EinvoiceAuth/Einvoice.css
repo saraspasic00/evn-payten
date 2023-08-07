@@ -1,0 +1,23 @@
+@media (max-width: 1080px) {
+  .container-invoice {
+    margin-top: 50px;
+  }
+  .details-active {
+    display: grid;
+
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1081px) {
+  .container-invoice {
+    margin-top: 50px;
+  }
+  .details-active {
+    display: grid;
+
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

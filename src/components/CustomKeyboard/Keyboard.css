@@ -1,0 +1,81 @@
+@media (max-width: 1080px) {
+  .keyboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .keyboard-input {
+    display: flex;
+    width: 85%;
+    height: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border: solid 1px black;
+    box-sizing: border-box;
+  }
+
+  .simple-keyboard {
+    display: flex !important;
+    max-width: 850px;
+    align-items: center;
+  }
+  .simple-keyboard.hg-theme-default.myTheme {
+    border: none;
+    background-color: rgb(240, 240, 240);
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+  .simple-keyboard.hg-layout-default .hg-button {
+    border: none;
+    /* box-shadow: 3px 3px 3px rgb(229, 225, 225); */
+    color: black;
+    min-width: 60px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1081px) {
+  .keyboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .keyboard-input {
+    display: flex;
+
+    width: 80%;
+    height: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border: solid 1px black;
+    box-sizing: border-box;
+  }
+
+  .simple-keyboard {
+    display: flex !important;
+    max-width: 850px;
+    align-items: center;
+  }
+  .simple-keyboard.hg-theme-default.myTheme {
+    border: none;
+    background-color: rgb(240, 240, 240);
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+  .simple-keyboard.hg-layout-default .hg-button {
+    border: none;
+    /* box-shadow: 3px 3px 3px rgb(229, 225, 225); */
+    color: black;
+    min-width: 60px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}

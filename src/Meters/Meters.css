@@ -1,0 +1,22 @@
+.container-align {
+  display: grid !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: max-content;
+  margin-top: 20px;
+}
+
+@media (min-width: 960px) {
+  .container-align {
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: max-content;
+  }
+
+  .btn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}

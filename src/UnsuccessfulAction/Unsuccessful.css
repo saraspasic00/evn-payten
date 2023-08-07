@@ -1,0 +1,6 @@
+.error-align {
+  display: grid !important;
+  align-items: center;
+  justify-content: center;
+  margin-top: 210px;
+}

@@ -1,0 +1,29 @@
+@media (max-width: 1080px) {
+  .containerAlign {
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 200px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (min-width: 1081px) {
+  .containerAlign {
+    display: grid !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px !important;
+  }
+}

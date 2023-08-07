@@ -1,0 +1,31 @@
+@media (max-width: 1080px) {
+  .details-active {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+  }
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1081px) {
+  .details-active {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+}

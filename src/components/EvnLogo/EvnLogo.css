@@ -1,0 +1,15 @@
+@media (max-width: 1080px) {
+  .evn-logo {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 480px;
+    margin-top: 400px;
+  }
+}
+
+@media (min-width: 1081px) {
+  .evn-logo {
+    width: 20%;
+    height: 50%;
+  }
+}

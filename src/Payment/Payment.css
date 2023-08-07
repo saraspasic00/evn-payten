@@ -1,0 +1,42 @@
+@media (min-width: 1081px) {
+  .container-align {
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: max-content;
+    margin-top: 100px;
+  }
+  .btn1 {
+    background-color: "white";
+
+    margin: 20;
+    display: inline-flex;
+  }
+  .btn2 {
+    background-color: "white";
+
+    margin: 20;
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 1080px) {
+  .btn1 {
+    background-color: "white";
+    border-color: "grey";
+
+    display: inline-flex;
+  }
+  .btn2 {
+    background-color: "white";
+    border-color: "grey";
+
+    display: inline-flex;
+  }
+  .container-align {
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100%;
+  }
+}
