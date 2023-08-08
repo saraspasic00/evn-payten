@@ -41,14 +41,14 @@ function KeypadEmbg(props) {
   return (
     <div>
       <input
-        className="embg-input"
+        className="input-embg"
         value={input}
         placeholder={""}
         onChange={onChangeInput}
         required
       />
       <Keyboard
-        className="keypad-embg"
+        className="simple-keyboard-embg"
         keyboardRef={(r) => (keyboard.current = r)}
         theme={"hg-theme-default hg-layout-default myKeypadEmbg"}
         layout={{

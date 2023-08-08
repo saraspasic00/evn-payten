@@ -62,7 +62,7 @@ function InvoiceKeyboard(props) {
           required
         />
         <Keyboard
-          className="keyboard-invoice"
+          className="simple-keyboard-invoice"
           keyboardRef={(r) => (keyboard.current = r)}
           theme={"hg-theme-default hg-layout-default myThemeInvoice "}
           email={input}

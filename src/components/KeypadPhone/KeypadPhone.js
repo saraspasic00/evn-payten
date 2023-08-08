@@ -41,8 +41,15 @@ function KeypadPhone(props) {
   };
   return (
     <div>
-      <input value={input} placeholder={""} onChange={onChangeInput} required />
+      <input
+        className="keyboard-input-phone"
+        value={input}
+        placeholder={""}
+        onChange={onChangeInput}
+        required
+      />
       <Keyboard
+        className="simple-keyboard-phone"
         keyboardRef={(r) => (keyboard.current = r)}
         theme={"hg-theme-default hg-layout-default myKeypadPhone"}
         layout={{

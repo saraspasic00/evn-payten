@@ -55,7 +55,7 @@ function Keypad(props) {
   return (
     <div>
       <input
-        className="user-input"
+        className="input-user"
         value={input}
         placeholder={""}
         onChange={onChangeInput}
