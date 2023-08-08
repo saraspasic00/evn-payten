@@ -62,8 +62,9 @@ function Keypad(props) {
         required
       />
       <Keyboard
+        className="simple-keyboard-user"
         keyboardRef={(r) => (keyboard.current = r)}
-        theme={"hg-theme-default hg-layout-default myKeypad"}
+        theme={"hg-theme-default hg-layout-default myKeypadUser"}
         layout={{
           default: ["1 2 3", "4 5 6", "7 8 9", " 0 {bksp}"],
         }}

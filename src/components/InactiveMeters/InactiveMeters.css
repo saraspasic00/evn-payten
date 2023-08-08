@@ -1,24 +1,24 @@
 @media (max-width: 1080px) {
-  .details {
-    display: flex;
+  .details-inactive-meters {
+    display: grid;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
   }
-  .title {
+  .title-inactive-meters {
     margin-bottom: 80px !important;
     display: flex !important;
     justify-content: center;
   }
 }
 @media (min-width: 1081px) {
-  .details {
+  .details-inactive-meters {
     display: grid;
 
     width: 100%;
     margin-bottom: 30px;
   }
-  .title {
+  .title-inactive-meters {
     margin-bottom: 100px !important;
     display: flex !important;
     justify-content: center;

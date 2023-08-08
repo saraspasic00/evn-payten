@@ -1,7 +1,8 @@
 @media (max-width: 1080px) {
-  .details-active {
+  .details-active-meters {
     display: grid;
-
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
   }
   .title-active {

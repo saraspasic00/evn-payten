@@ -40,8 +40,9 @@ function ActiveMeters(props) {
             width: "100vh",
             backgroundColor: "white",
             color: "black",
-            marginBottom: "10px",
+            marginBottom: "15px",
             display: "grid",
+            fontSize: "25px",
           },
         },
       },
@@ -73,7 +74,7 @@ function ActiveMeters(props) {
       <Typography variant="h4" className="title-active">
         Плаќање на долгови
       </Typography>
-      <div className="details-active">
+      <div className="details-active-meters">
         <Typography>
           Број на корисник: <b> {selector}</b>
         </Typography>{" "}

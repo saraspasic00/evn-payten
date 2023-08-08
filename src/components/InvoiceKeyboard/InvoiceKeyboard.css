@@ -1,5 +1,5 @@
 @media (max-width: 1080px) {
-  .invoice-input {
+  .keyboard-input-invoice {
     display: flex;
     width: 100%;
     height: 50px;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
   }
 
-  .simple-keyboard .keyboard-invoice {
+  .simple-keyboard-invoice {
     display: flex !important;
     max-width: 850px;
     align-items: center;
@@ -39,7 +39,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .keyboard-input {
+  .keyboard-input-invoice {
     display: flex;
 
     width: 80%;
@@ -50,12 +50,12 @@
     box-sizing: border-box;
   }
 
-  .simple-keyboard {
+  .simple-keyboard-invoice {
     display: flex !important;
     max-width: 850px;
     align-items: center;
   }
-  .simple-keyboard.hg-theme-default.myTheme {
+  .simple-keyboard.hg-theme-default.myThemeInvoice {
     border: none;
     background-color: rgb(240, 240, 240);
     margin: 10px;

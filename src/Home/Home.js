@@ -7,8 +7,8 @@ import EvnLogo from "../components/EvnLogo/EvnLogo";
 
 function Home() {
   return (
-    <Container maxWidth="xl" className="containerAlign">
-      <Typography variant="h4" className="header">
+    <Container className="containerAlign">
+      <Typography variant="h3" className="header">
         Избери услуга
       </Typography>
       <CustomButton

@@ -17,10 +17,11 @@ function Bills() {
       {loading === false ? (
         <Container>
           <Typography style={{ margin: "15px" }}>
-            Број на корисник: {select}
+            Број на корисник:
+            <b>{select}</b>
           </Typography>
           <Typography style={{ margin: "15px" }}>
-            Име на корисник: {brFak.map((data) => data.ime)}{" "}
+            Име на корисник: <b>{brFak.map((data) => data.ime)} </b>
           </Typography>
           <MyDataGrid />
         </Container>

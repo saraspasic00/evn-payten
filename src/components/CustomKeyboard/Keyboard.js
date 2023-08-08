@@ -79,8 +79,9 @@ function CustomKeyboard(props) {
           onChange={onChangeInput}
         />
         <Keyboard
+          className="simple-keyboard-auth"
           keyboardRef={(r) => (keyboard.current = r)}
-          theme={"hg-theme-default hg-layout-default myTheme "}
+          theme={"hg-theme-default hg-layout-default myThemeAuth "}
           phone={inputName}
           email={layoutName}
           onChangeAll={onChangeAll}

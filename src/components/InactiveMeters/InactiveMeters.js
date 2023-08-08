@@ -39,8 +39,9 @@ function InactiveMeters() {
             width: "100vh",
             backgroundColor: "white",
             color: "black",
-            marginBottom: "10px",
+            marginBottom: "15px",
             display: "grid",
+            fontSize: "25px",
           },
         },
       },
@@ -69,10 +70,10 @@ function InactiveMeters() {
 
   return (
     <Container>
-      <Typography variant="h4" className="title">
+      <Typography variant="h4" className="title-inactive-meters">
         Преглед на исклучени мерни места
       </Typography>
-      <div className="details">
+      <div className="details-inactive-meters">
         <Typography>
           Број на корисник: <b> {selector}</b>
         </Typography>{" "}

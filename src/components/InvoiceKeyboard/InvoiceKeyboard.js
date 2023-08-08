@@ -55,7 +55,7 @@ function InvoiceKeyboard(props) {
     <div>
       <div className="keyboard-container">
         <input
-          className="invoice-input"
+          className="keyboard-input-invoice"
           value={input}
           placeholder={""}
           onChange={onChangeInput}
